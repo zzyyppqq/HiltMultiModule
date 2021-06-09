@@ -1,0 +1,5 @@
+
+include ':analytics_api'
+include ':analytics_internal'
+
+rootProject.name = "module_analytics"

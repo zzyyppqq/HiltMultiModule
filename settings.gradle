@@ -1,0 +1,12 @@
+include ':app'
+
+include ':module_base:base'
+
+include ':module_login:login_api'
+include ':module_login:login_internal'
+
+include ':module_analytics:analytics_api'
+include ':module_analytics:analytics_internal'
+
+rootProject.name = "HiltMultiModule"
+
